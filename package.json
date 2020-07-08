@@ -10,9 +10,17 @@
   "main": "source/index.js",
   "types": "source/index.d.ts",
   "scripts": {
-    "test": "ava"
+    "test": "xo && ava"
   },
   "devDependencies": {
-    "ava": "^3.10.1"
+    "ava": "^3.10.1",
+    "xo": "^0.32.1"
+  },
+  "xo": {
+    "prettier": true,
+    "space": true
+  },
+  "resolutions": {
+    "lodash": "4.17.15"
   }
 }

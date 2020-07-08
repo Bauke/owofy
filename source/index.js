@@ -23,8 +23,9 @@ const faces = [
  * @param {string} input The input string to owofy.
  */
 function owofy(input) {
-  return input.replace(/(?:l|r)/g, 'w')
-    .replace(/(?:L|R)/g, 'W')
+  return input
+    .replace(/[lr]/g, 'w')
+    .replace(/[LR]/g, 'W')
     .replace(/n([aeiou])/g, 'ny$1')
     .replace(/N([aeiou])/g, 'Ny$1')
     .replace(/N([AEIOU])/g, 'Ny$1')
