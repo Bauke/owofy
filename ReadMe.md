@@ -2,6 +2,8 @@
 
 > Owofies some text! owo
 
+[![builds.sr.ht status](https://builds.sr.ht/~bauke/owofy/.build.yml.svg)](https://builds.sr.ht/~bauke/owofy/.build.yml?)
+
 ## Sample
 
 ```
