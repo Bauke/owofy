@@ -1,0 +1,16 @@
+image: alpine/latest
+
+packages:
+  - nodejs
+  - yarn
+
+sources:
+  - https://git.sr.ht/~bauke/owofy
+
+tasks:
+  - setup: |
+      cd owofy
+      yarn --no-progress --silent
+  - test: |
+      cd owofy
+      yarn test
