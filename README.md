@@ -37,6 +37,6 @@ console.log(owo('Banana!'));
 
 ## License
 
-Open-sourced with the [MIT License](https://git.sr.ht/~bauke/owofy/tree/master/License).
+Open-sourced with the [MIT License](https://git.sr.ht/~bauke/owofy/tree/master/LICENSE).
 
-Heavily based on [Kyostra's now deleted `owofy`](https://github.com/kyostra/owofy).
+Heavily based on and backwards compatible with [Kyostra's now deleted `owofy`](https://github.com/kyostra/owofy).
