@@ -1,0 +1,18 @@
+{
+  "name": "owofy",
+  "description": "Owofies some text! owo",
+  "version": "0.1.0",
+  "author": "Bauke <me@bauke.xyz>",
+  "repository": "https://git.sr.ht/~bauke/owofy",
+  "homepage": "https://sr.ht/~bauke/owofy",
+  "bugs": "https://todo.sr.ht/~bauke/owofy",
+  "license": "MIT",
+  "main": "source/index.js",
+  "types": "source/index.d.ts",
+  "scripts": {
+    "test": "ava"
+  },
+  "devDependencies": {
+    "ava": "^3.10.1"
+  }
+}
