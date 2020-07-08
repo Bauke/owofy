@@ -10,7 +10,7 @@
   "main": "source/index.js",
   "types": "source/index.d.ts",
   "scripts": {
-    "test": "xo && ava"
+    "test": "xo && ava --verbose"
   },
   "devDependencies": {
     "ava": "^3.10.1",
