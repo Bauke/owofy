@@ -1,11 +1,9 @@
 {
   "name": "owofy",
   "description": "Owofies some text! owo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Bauke <me@bauke.xyz>",
-  "repository": "https://git.sr.ht/~bauke/owofy",
-  "homepage": "https://sr.ht/~bauke/owofy",
-  "bugs": "https://todo.sr.ht/~bauke/owofy",
+  "repository": "https://git.holllo.cc/Bauke/owofy",
   "license": "MIT",
   "main": "source/index.js",
   "types": "source/index.d.ts",

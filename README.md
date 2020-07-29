@@ -2,8 +2,6 @@
 
 > Owofies some text! owo
 
-[![builds.sr.ht status](https://builds.sr.ht/~bauke/owofy/.build.yml.svg)](https://builds.sr.ht/~bauke/owofy/.build.yml?)
-
 ## Sample
 
 ```
@@ -37,6 +35,6 @@ console.log(owo('Banana!'));
 
 ## License
 
-Open-sourced with the [MIT License](https://git.sr.ht/~bauke/owofy/tree/master/LICENSE).
+Open-sourced with the [MIT License](https://git.holllo.cc/Bauke/owofy/src/branch/main/LICENSE).
 
 Heavily based on and backwards compatible with [Kyostra's now deleted `owofy`](https://github.com/kyostra/owofy).
