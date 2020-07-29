@@ -2,7 +2,24 @@
 
 > Owofies some text! owo
 
-## Sample
+[![npm version](https://img.shields.io/npm/v/owofy?color=blue&style=flat-square)](https://npmjs.com/package/owofy)
+[![npm downloads per month](https://img.shields.io/npm/dm/owofy?color=blue&style=flat-square)](https://npmjs.com/package/owofy)
+[![npm license](https://img.shields.io/npm/l/owofy?color=blue&style=flat-square)](https://npmjs.com/package/owofy)
+
+## Usage
+
+```js
+const owo = require('owofy');
+
+console.log(owo('Banana!'));
+
+// Banyanya! (/ =ω=)/
+```
+
+Try out a runnable example [with RunKit](https://runkit.com/bauke/owofy-example).
+
+<details>
+<summary>Lorem Ipsum Sample</summary>
 
 ```
 Lorem ipsum dolor sit amet, consectetur adipiscing elit,
@@ -22,16 +39,7 @@ vowuptate vewit esse ciwwum dowowe eu fugiat nyuwwa pawiatuw! (◕‿◕✿) Exc
 sint occaecat cupidatat nyon pwoident, sunt in cuwpa qui officia desewunt mowwit
 anyim id est wabowum.
 ```
-
-## Usage
-
-```js
-const owo = require('owofy');
-
-console.log(owo('Banana!'));
-
-// Banyanya! (/ =ω=)/
-```
+</details>
 
 ## License
 
