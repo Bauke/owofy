@@ -1,7 +1,5 @@
-/**
- * The faces owofy will randomly insert at exclamation marks.
- */
-const faces = [
+/** The faces owofy will randomly insert at exclamation marks. */
+export const faces: string[] = [
   '(*^ω^)',
   '(◕‿◕✿)',
   '(◕ᴥ◕)',
@@ -15,14 +13,11 @@ const faces = [
   '>w<',
   '^w^',
   '(つ✧ω✧)つ',
-  '(/ =ω=)/'
+  '(/ =ω=)/',
 ];
 
-/**
- * Owofies your text! owo
- * @param {string} input The input string to owofy.
- */
-function owofy(input) {
+/** Owofy some text! */
+export default function owofy(input: string): string {
   return input
     .replace(/[lr]/g, 'w')
     .replace(/[LR]/g, 'W')
@@ -32,11 +27,3 @@ function owofy(input) {
     .replace(/ove/g, 'uv')
     .replace(/!+/g, `! ${faces[Math.floor(Math.random() * faces.length)]}`);
 }
-
-// Attach the faces to the owofy function.
-// Essentially doing `export const faces ...`.
-owofy.faces = faces;
-
-// Export the owofy function as default.
-// Essentially doing `export default function owofy ...`.
-module.exports = owofy;
