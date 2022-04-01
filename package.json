@@ -3,7 +3,11 @@
   "description": "Owofies some text! owo",
   "version": "1.0.2",
   "author": "Bauke <me@bauke.xyz>",
-  "homepage": "https://git.holllo.cc/Bauke/owofy",
+  "funding": "https://github.com/sponsors/Bauke",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Bauke/owofy"
+  },
   "license": "MIT",
   "main": "source/index.js",
   "types": "source/index.d.ts",
