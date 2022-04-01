@@ -19,7 +19,9 @@
     "README.md"
   ],
   "scripts": {
-    "test": "xo && c8 ava"
+    "build": "tsc",
+    "test": "xo && c8 ava",
+    "prepublishOnly": "rm -rf build/ && pnpm build && pnpm test"
   },
   "devDependencies": {
     "ava": "^4.1.0",
