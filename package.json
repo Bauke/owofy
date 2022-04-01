@@ -12,17 +12,10 @@
   },
   "devDependencies": {
     "ava": "^3.10.1",
-    "husky": "^4.2.5",
     "xo": "^0.32.1"
   },
   "xo": {
     "prettier": true,
     "space": true
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "yarn test",
-      "pre-push": "yarn test"
-    }
   }
 }
