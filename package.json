@@ -11,8 +11,8 @@
     "test": "xo && ava --verbose"
   },
   "devDependencies": {
-    "ava": "^3.10.1",
-    "xo": "^0.32.1"
+    "ava": "^4.1.0",
+    "xo": "^0.48.0"
   },
   "xo": {
     "prettier": true,
