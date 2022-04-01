@@ -1,22 +1,15 @@
 # Owofy
 
-> Owofies some text! owo
-
-[![npm version](https://img.shields.io/npm/v/owofy?color=blue&style=flat-square)](https://npmjs.com/package/owofy)
-[![npm downloads per month](https://img.shields.io/npm/dm/owofy?color=blue&style=flat-square)](https://npmjs.com/package/owofy)
-[![npm license](https://img.shields.io/npm/l/owofy?color=blue&style=flat-square)](https://npmjs.com/package/owofy)
+> Owofy some text!
 
 ## Usage
 
-```js
-const owo = require('owofy');
-
-console.log(owo('Banana!'));
+```typescript
+import owofy from 'owofy';
 
 // Banyanya! (/ =ω=)/
+owofy('Banana!');
 ```
-
-Try out a runnable example [with RunKit](https://runkit.com/bauke/owofy-example).
 
 <details>
 <summary>Lorem Ipsum Sample</summary>
@@ -43,6 +36,6 @@ anyim id est wabowum.
 
 ## License
 
-Open-sourced with the [MIT License](https://git.holllo.cc/Bauke/owofy/src/branch/main/LICENSE).
+Open-sourced with the [MIT License](LICENSE).
 
 Heavily based on and backwards compatible with [Kyostra's now deleted `owofy`](https://github.com/kyostra/owofy).
