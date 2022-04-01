@@ -21,9 +21,7 @@ export default function owofy(input: string): string {
   return input
     .replace(/[lr]/g, 'w')
     .replace(/[LR]/g, 'W')
-    .replace(/n([aeiou])/g, 'ny$1')
-    .replace(/N([aeiou])/g, 'Ny$1')
-    .replace(/N([AEIOU])/g, 'Ny$1')
+    .replace(/(n)([aeiou])/gi, '$1y$2')
     .replace(/ove/g, 'uv')
     .replace(/!+/g, `! ${faces[Math.floor(Math.random() * faces.length)]}`);
 }
