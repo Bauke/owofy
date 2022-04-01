@@ -7,6 +7,9 @@ test('Owofy', (t) => {
 
   const owofied = owofy('Lorem ipsum dolor sit amet.');
   t.snapshot(owofied, 'Lorem ipsum example');
+
+  const nya = owofy('Nine BANANA banana');
+  t.snapshot(nya, 'Nya example');
 });
 
 test('Faces', (t) => {
