@@ -9,14 +9,35 @@
     "url": "https://github.com/Bauke/owofy"
   },
   "license": "MIT",
-  "main": "source/index.js",
-  "types": "source/index.d.ts",
+  "type": "module",
+  "main": "build/source/index.js",
+  "types": "build/source/index.d.ts",
+  "files": [
+    "build/source/",
+    "package.json",
+    "LICENSE",
+    "README.md"
+  ],
   "scripts": {
     "test": "xo && ava --verbose"
   },
   "devDependencies": {
     "ava": "^4.1.0",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.3",
     "xo": "^0.48.0"
+  },
+  "ava": {
+    "extensions": {
+      "ts": "module"
+    },
+    "files": [
+      "tests/**/*.test.ts"
+    ],
+    "nodeArguments": [
+      "--no-warnings",
+      "--loader=ts-node/esm"
+    ]
   },
   "xo": {
     "prettier": true,
